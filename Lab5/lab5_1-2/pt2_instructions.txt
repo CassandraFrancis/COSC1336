@@ -1,0 +1,14 @@
+Lab Exercise 5 (Part 2)
+Focus 
+4.	Library functions
+5.	User-defined value returning functions
+6.	Modules
+Part 2A: Building upon an Existing Solution
+For this portion of the lab, you will reuse the program you wrote in Lab 5 Part1 A.  Redesign this solution in the following manner:
+4.	All of the functions used must now be value returning functions.
+5.	Put the functions in an external module and let the main program import the module.
+6.	Save the program as firstname_lastname_Lab5Ba.py where you will replace firstname and lastname with your actual first and last name.
+All labs will be graded in Blackboard. Once you are done with the lab turn it in to the Lab 5 part 2 link.  
+
+For this lab you will turn into Blackboard the following ONE item:
+1. The Python code file you save in part 2A.  cassandra_francis_lab5Ba.py

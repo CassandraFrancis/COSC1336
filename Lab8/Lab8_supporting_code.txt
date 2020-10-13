@@ -1,0 +1,48 @@
+userName = str(input("Enter your name: "))
+    userEmail = str(input("Enter your email: "))
+    validEmail = False
+    while(validEmail == False):
+        valid = userEmail.find("@")
+        if(valid != -1):
+            validEmail = True
+        else:
+            userEmail = str(input("Invalid email! Please retry!\nEnter your email: "))
+
+
+
+
+----------------------------
+
+import sys
+
+print ( 'Welcome to the converted program.' )
+
+#Get the email address, and name of the user.
+
+name = input('Please enter your name: ')
+
+email_address = input('Please enter in your email address: ')
+
+#Validate the email address.
+
+while '@' not in email_address:
+
+    email_address = input('Please enter in a vaild email address. ')
+
+
+
+
+
+------
+
+name = input('Name: ') #input name
+                                        go_on = 'y'
+                                        while go_on == 'y': #input validation loop for email
+                                            email = input('Email: ')
+                                            index = email.find('@')
+                                            if index == -1:
+                                                print('Please enter a valid email address.')
+                                            else:
+                                                go_on = 'n'
+
+                                        print('\n' + name + '-\nThank you for your interest in the obviously superior system of measurement. Your converted values appear below.\n')

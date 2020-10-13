@@ -1,0 +1,23 @@
+Focus 
+1.	Define and call simple functions 
+2.	Passing parameters to functions
+3.	Variable scope
+Part 1A: Design a Solution
+For this portion of the lab, you will reuse the program you wrote in Lab 4.  Redesign this solution using functions.
+For this lab:
+1.	You will define a function names main().
+2.	You will get input in the main function and pass it to the following functions:
+a.	milesToKm()
+b.	FahToCel()
+c.	GalToLit()
+d.	PoundsToKg()
+e.	InchesToCm(). 
+3.	Each function will require that you have a local variable to store the result of the calculation.
+This result will then be displayed using the print statement from within the function.
+Part 1B: Code
+Use the design you created in part A.  Write a complete and syntactically correct Python program.  Use the IDLE programming environment.  Pleas save your file as firstname_lastname_Lab5A.py where you will replace firstname and lastname with your actual first name and last name.  Remember to use the extension .py.
+Run and test your program.  Once you are sure it works you will turn in the items listed in the next section. 
+All labs will be graded in Blackboard.  Once you are done with the lab turn it using the Lab 5 part 1 link.  
+
+For this lab you will turn into Blackboard the following ONE item:
+1. The Python code file you save in part 1B.  cassandra_francis_lab5a.py
